@@ -15,11 +15,11 @@ CameraHUD is a plugin for drawing custom hud in the Maya viewport.
 import maya import cmds
 
 #load plugin
-if not cmds.pluginInfo("CameraHUD", q=True, loaded=True):
+if not cmds.pluginInfo("camerahud", q=True, loaded=True):
     cmds.loadPlugin("path/to/plugin/directory/CameraHUD.py")
 
 #create CameraHUD node
-node = cmds.createNode("CameraHUD")
+node = cmds.createNode("camerahud")
 
 #connect to defaultResolution node for correct resolution
 cmds.connectAttr("defaultResolution.width", node + ".uiResolution0")
