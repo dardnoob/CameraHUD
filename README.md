@@ -19,7 +19,7 @@ if not cmds.pluginInfo("camerahud", q=True, loaded=True):
     cmds.loadPlugin("path/to/plugin/directory/CameraHUD.py")
 
 #create CameraHUD node
-node = cmds.createNode("camerahud")
+node = cmds.createNode("CameraHUD")
 
 #connect to defaultResolution node for correct resolution
 cmds.connectAttr("defaultResolution.width", node + ".uiResolution0")
