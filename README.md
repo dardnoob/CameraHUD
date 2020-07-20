@@ -4,8 +4,8 @@ CameraHUD is a plugin for drawing custom hud in the Maya viewport.
 ![CameraHUD](/screenshots/preview.png?raw=true "CameraHUD")
 
 ### Requirements
-* PySide for Maya <= 2015
-* PySide2 for Maya >= 2015
+* PySide for Maya <= 2017
+* PySide2 for Maya >= 2017
 * Maya >= 2013
 
 
